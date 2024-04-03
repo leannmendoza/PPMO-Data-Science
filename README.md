@@ -1,10 +1,37 @@
 # PPMO-Data-Science
-Exploratory data science and machine learning analysis of statistical project management data to optimize project planning and management
 
-## predicting_project_survival_using_skl.ipynb
-Modeled after the common machine learning project "predicting passenger survival based on titanic data," this project looks at raw project management data taken from Atlassian's Jira platform, and predicts projection of "survival." Trained on completed projects, tested on completed projects as well as active projects. We define survival as "will this project meet its anticipated end date +/- 5 days?" with the intention of the model picking up on key features such as milestone counts, staff counts, what does the project volatility like  right now. Predicting with 99.17% accuracy (although over a pessimistic, unbalanced dataset), this analysis proves that we should open up a seat at the table for ML in statistical project management. 
+## Project Overview
 
-## LSTM_PAH12DayForecasting.ipynb
-Modeled after predicting passengers that will fly over a series of months, Long Short Term Memory (LSTM) Networks using PyTorch forecast use historical time-series project management data and predicts the inflections and flow of product volatility over the duration of a project. 
+The PPMO-Data-Science project engages in exploratory data science and machine learning analysis of statistical project management data to optimize project planning and management processes. Through sophisticated modeling techniques, the project aims to provide predictive insights into project "survival" - defined as the likelihood of a project meeting its anticipated end date within a margin of +/- 5 days. This initiative seeks to harness the untapped potential of machine learning in statistical project management, offering a novel approach to project forecasting and optimization.
 
-At its current state, the model can accurately predict the last 12 days of the project volatility based on historical trends with an accuracy of 93%. With continuous enhancement, we plan to optimize the code to predict future trends. These deep learning algorithms have the potential to be implemented into project management software, allowing the project managers to anticipate reorganization and recognize roadblocks early on within the project saving the organization thousands of dollars. 
+## Notebooks
+
+### predicting_project_survival_using_skl.ipynb
+
+This notebook draws inspiration from the well-known machine learning challenge of predicting passenger survival on the Titanic. However, it shifts the focus to the realm of project management, utilizing raw data from Atlassian's Jira platform. The model predicts project "survival" based on various features such as milestone counts and staff allocations, achieving an accuracy of 99.17% on a challenging dataset. This high level of precision underscores the viability of machine learning applications in project management decision-making, even if the dataset is acknowledged as pessimistic and potentially unbalanced.
+
+### LSTM_PAH12DayForecasting.ipynb
+
+Adapting the concept of forecasting passenger numbers for flights, this notebook employs Long Short-Term Memory (LSTM) Networks to predict project volatility over time. Utilizing PyTorch for deep learning, the model forecasts the last 12 days of project volatility with a 93% accuracy rate, based on historical data trends. The ultimate goal is to refine and enhance these predictive capabilities, integrating them into project management tools to aid in early identification of potential issues, thereby saving significant resources and improving project outcomes.
+
+## Objectives
+
+- To explore and apply data science and machine learning methodologies in the context of project management.
+- To develop predictive models capable of forecasting project outcomes and volatility with high accuracy.
+- To demonstrate the potential of integrating machine learning algorithms into project management practices for better decision-making and resource allocation.
+
+## Potential Impact
+
+The insights and models developed through the PPMO-Data-Science project have the potential to revolutionize project management by:
+- Allowing project managers to anticipate and mitigate risks more effectively.
+- Enhancing the accuracy of project planning and forecasting.
+- Saving significant time and resources through the early identification of potential project roadblocks.
+
+## Future Directions
+
+As we continue to refine our models and methodologies, future iterations of the project will focus on:
+- Expanding the dataset to include a wider range of project types and management scenarios.
+- Improving the models' accuracy and reliability through advanced machine learning techniques.
+- Exploring the integration of these models into existing project management software platforms.
+
+We welcome contributions, insights, and collaborations from the data science and project management communities to further the objectives of this innovative project.
