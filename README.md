@@ -1,4 +1,4 @@
-# PPMO-Data-Science
+# Project Viability and Management Optimization through Machine Learning (ProVizML)
 
 ## Project Overview
 
